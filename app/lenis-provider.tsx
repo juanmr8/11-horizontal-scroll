@@ -33,13 +33,13 @@ export function LenisProvider({
     <ReactLenis
       root
       options={{
-        lerp: 0.1,
+        lerp: 0.2,
         duration: 1.2,
         smoothWheel: true,
         touchMultiplier: 2,
       }}
     >
-      <LenisController scrollEnabled={scrollEnabled} />
+      {/* <LenisController scrollEnabled={scrollEnabled} /> */}
       {children}
     </ReactLenis>
   );
